@@ -8,4 +8,4 @@ apt -y install nginx
 rm /var/www/html/index.nginx-debian.html
 
 # Create the default page for the region
-wget https://raw.githubusercontent.com/ECClabs/demo-bcdr/master/index.$1.html -O /var/www/html/index.html
+wget https://raw.githubusercontent.com/ECClabs/demo-bcdr/refs/heads/master/index.$1.html -O /var/www/html/index.html
